@@ -5,6 +5,7 @@ export * from "./types/public";
 export { AnnotatedScreenshotText, LLMClient } from "./llm/LLMClient";
 
 export { AgentProvider, modelToAgentProviderMap } from "./agent/AgentProvider";
+export { captureHybridSnapshot } from "./understudy/a11y/snapshot";
 
 export {
   validateZodSchema,
